@@ -1,16 +1,12 @@
 
 
-/* Dispositivos con ancho máximo de 480px  */
 
-@media screen and (min-width: 501px) {
+@media screen and (max-width: 501px) {
     .mobile-only {
       display: none;
     }
-  }
-  @media screen and (max-width: 500px) {
-    .desktop-only {
-      display: none;
-    }
+  
+
   
 body {
     font-family: Arial, sans-serif;
@@ -37,4 +33,4 @@ header {
     footer {
         padding: 10px;
     }
-}
+  }
