@@ -1,7 +1,7 @@
 
 
 /* Dispositivos con ancho máximo de 768px (tablets y móviles) */
-@media (max-width: 768px) {
+@media (max-width: 400px) {
 /* Estilos generales */
 body {
     font-family: Arial, sans-serif;
