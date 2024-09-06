@@ -1,7 +1,7 @@
 
 
-/* Dispositivos con ancho máximo de 768px (tablets y móviles) */
-@media (max-width: 400px) {
+/* Dispositivos con ancho máximo de 480px  */
+@media (max-width: 480px) {
 /* Estilos generales */
 body {
     font-family: Arial, sans-serif;
@@ -12,8 +12,9 @@ body {
 
 /* Estilos del header */
 header {
-    background-image:url("../../Data/img/flyer.jpeg");;
+    background-image:url("../../Data/img/flyer.png");;
     color: white;
+    padding: 100px;
     padding-bottom: 900px;
     align-items: left;
     background-repeat: no-repeat;
